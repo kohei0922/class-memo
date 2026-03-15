@@ -9,16 +9,14 @@ const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
 const DAYS_JP = ['月', '火', '水', '木', '金']
 const PERIODS = [1, 2, 3, 4, 5, 6]
 const COLORS = [
+  { value: '#1a1a1a', name: 'Black' },
   { value: '#78716c', name: 'Stone' },
-  { value: '#6b7280', name: 'Gray' },
-  { value: '#92400e', name: 'Amber' },
-  { value: '#854d0e', name: 'Gold' },
+  { value: '#9f1239', name: 'Wine' },
+  { value: '#c2410c', name: 'Orange' },
   { value: '#166534', name: 'Green' },
   { value: '#1e3a5f', name: 'Navy' },
   { value: '#4c1d95', name: 'Violet' },
-  { value: '#7c2d12', name: 'Rust' },
-  { value: '#1a1a1a', name: 'Black' },
-  { value: '#9f1239', name: 'Wine' },
+  { value: '#0e7490', name: 'Teal' },
 ]
 
 export default function TimetablePage() {
